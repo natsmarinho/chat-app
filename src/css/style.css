@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+:root{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+
+    --cor-gradiente: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    --branco: #ffffff;
+    --roxo: #9341C8;
+    --roxo-secundario: #6E5D7E;
+    --branco--fundo: #F5F3F7;
+    --cinza: #A39DA9;
+    --roxo-titulo: #3E2753;
+    --branco-background-page: #F2F2F2;
+}
+
+body{
+    background: var(--branco-background-page);
+}
+
+
+.imagem-fundo{
+    position: absolute;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 4em;
+}
+
+.forma-telefone{
+    width: 100%;
+    position: relative;
+}
+
+.cabecalho__container{
+    background-color: var(--cor-gradiente);
+    position: absolute;
+    z-index: 1;
+}
