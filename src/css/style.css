@@ -12,6 +12,7 @@
     --cinza: #A39DA9;
     --roxo-titulo: #3E2753;
     --branco-background-page: #F2F2F2;
+    --rose: #D99EFF;
 }
 
 body{
@@ -28,15 +29,50 @@ body{
     display: flex;
     align-items: center;
     top: 4em;
-}
-
-.forma-telefone{
-    width: 100%;
-    position: relative;
+    background-color: var(--branco);
+    margin-inline: 4em;
+    border-radius: 30px;
+    padding-top: .5em;
 }
 
 .cabecalho__container{
-    background-color: var(--cor-gradiente);
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    background: var(--cor-gradiente);
+    width: 93%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 20px 20px 6px 6px;
+}
+
+.topo{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.container__itens{
+    display: flex;
+}
+
+.container-info{
+    padding: 1em 4em 1.4em 1em;
+}
+
+.container-info h1{
+    font-weight: 500;
+    color: var(--branco);
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.container-info p{
+    color: var(--rose);
+    font-size: 8px;
+    line-height: 9px;;
+}
+
+.seta{
+    padding-left: 1em;
+    padding-right: .5em;
 }
