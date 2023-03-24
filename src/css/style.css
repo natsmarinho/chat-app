@@ -91,7 +91,7 @@ body{
     background-color: var(--roxo-claro);
     color: var(--roxo);
     font-size: .5em;
-    padding: 1em 2em .8em 1.4em;
+    padding: 1em 1em .8em 1.4em;
     margin: 2em 15em .8em 2em;
     border-radius: 10px 10px 10px 4px;
 }
@@ -121,4 +121,33 @@ body{
     border-radius: 10px 10px 4px 10px;
 }
 
+.info-walk{
+    display: flex;
+    background: var(--cor-gradiente);
+    width: 70%;
+    margin-left: 1em;
+    padding: .7em 1em .7em .5em;
+    border-radius: 10px 10px 10px 4px;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.first{
+    margin-block: .8em .7em;
+}
+
+.info-walk img{
+    padding-inline: .5em;
+}
+
+.info-walk p{
+    color: var(--branco);
+    font-size: .5em;
+    padding-right: 8em;
+}
+
+.info-walk label{
+    color: var(--branco);
+    font-size: .7em;
+    font-weight: 700;
+}
