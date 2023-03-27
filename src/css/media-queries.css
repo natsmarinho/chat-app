@@ -32,3 +32,47 @@
         font-size: .6em;
     }
 }
+
+@media screen and (min-width: 1220px){
+
+    body{
+        display: grid;
+        grid-template-areas: 
+        "foto tel texto";
+        grid-template-columns: auto auto auto;
+    }
+
+    .imagem-fundo{
+        height: 95%;
+    }
+
+    .container{
+        align-items: flex-start;
+        left: -10em;
+        grid-area: tel;
+        padding-right: .5em;
+        margin-right: -5em;
+        width: 247px;
+        height: 558px;
+    }
+
+    .cabecalho__container{
+        margin: .2em 4em 0 .8em ;
+    }
+
+    .mensagens{
+        margin-inline: auto;
+    }
+
+    .msg__left{
+        margin: 2em 5em 1em 1em;
+    }
+
+    .msg__left, .msg__right, #minutes, #hour{
+        font-size: 8px;
+    }
+
+    .info-app{
+        grid-area: texto;
+    }
+}
