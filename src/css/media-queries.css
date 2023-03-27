@@ -74,5 +74,10 @@
 
     .info-app{
         grid-area: texto;
+        text-align: start;
+    }
+
+    .info-app__titulo{
+        padding-left: 1.3em;
     }
 }
